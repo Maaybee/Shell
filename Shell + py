@@ -1,0 +1,6 @@
+#!/bin/bash 
+
+for x in *.py 
+do 
+	python3  $x < entrada.txt 
+done  
